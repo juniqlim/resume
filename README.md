@@ -1,5 +1,4 @@
-![me](20200704.jpeg){:width="400" height="300"}
-<img src="20200704.jpeg" width="200" height="300">
+<img src="20200704.jpeg" width="200" height="280">
 
 #### 임준규
 * jjunss@gmail.com   
