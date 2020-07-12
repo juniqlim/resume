@@ -1,4 +1,4 @@
-![me](20200704.jpeg){: width="400" height="300"}
+![me](20200704.jpeg){:width="400" height="300"}
 
 ##### 임준규
 * jjunss@gmail.com   
