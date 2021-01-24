@@ -4,7 +4,7 @@
 * juniqlim@gmail.com   
 
 자바 서버개발자 입니다.  
-Spring Boot, JPA, QueryDsl 을 사용하여 개발하는 것을 좋아합니다.  
+Spring Boot, Spring Data JPA, Querydsl 을 사용하여 개발하는 것을 좋아합니다.  
   
 즐겁게 개발하고 싶습니다.
  
