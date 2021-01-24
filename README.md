@@ -1,7 +1,7 @@
 <img src="20200704.jpeg" width="200" height="280">
 
 ### 임준규
-* jjunss@gmail.com   
+* juniqlim@gmail.com   
 
 자바 서버개발자 입니다.  
 Spring Boot, JPA, QueryDsl 을 사용하여 개발하는 것을 좋아합니다.  
