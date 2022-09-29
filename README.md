@@ -1,8 +1,8 @@
-<img src="20220925_songdo.JPG" width="195" height="260">
+<img src="https://raw.githubusercontent.com/juniqlim/resume/master/20220925_songdo.JPG" width="195" height="260">
 
-### 임준규
-* juniqlim@gmail.com
-* [github](https://github.com/juniqlim), [twitter](https://twitter.com/juniq1im), [blog](https://juniq.tistory.com)
+## 임준규
+* [juniqlim@gmail.com](mailto:juniqlim@gmail.com)
+* [linktr.ee/juniq](https://linktr.ee/juniq)
 
 [익스트림 프로그래밍](https://en.wikipedia.org/wiki/Extreme_programming)을 좋아하는 프로그래머 입니다.  
 
