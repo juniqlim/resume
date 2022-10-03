@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/juniqlim/resume/master/20220925_songdo.JPG" width="195" height="260">
+<img alt="20220925_songdo" src="https://raw.githubusercontent.com/juniqlim/resume/master/20220925_songdo.JPG" width="195" height="260">
 
 ## 임준규
 * [juniqlim@gmail.com](mailto:juniqlim@gmail.com)
@@ -36,4 +36,6 @@ TDD방식으로, 객체지향적으로, 선언적으로 프로그래밍하는 �
   * 모델1 방식 프로젝트를 시작으로 대부분 Spring 프로젝트를 수행
   * SK엔카닷컴에 4년정도 파견근무하며, 서비스 회사의 업무를 경험
 
-
+## 교육
+* NEXTSTEP - [TDD, 클린 코드 with Java](https://edu.nextstep.camp/c/8fWRxNWU) (2021-03 ~ 2021-05) 
+* 강남대학교 - 컴퓨터공학 전공 (2001.03 ~ 2008.02)
