@@ -2,7 +2,7 @@
 
 ## 임준규
 * [juniqlim@gmail.com](mailto:juniqlim@gmail.com)
-* [linktr.ee/juniq](https://linktr.ee/juniq)
+* [bio.link/juniq](https://bio.link/juniq)
 
 [익스트림 프로그래밍](https://en.wikipedia.org/wiki/Extreme_programming)을 좋아하는 프로그래머 입니다.  
 
