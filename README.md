@@ -4,13 +4,13 @@
 * [juniqlim@gmail.com](mailto:juniqlim@gmail.com)
 * [bio.link/juniq](https://bio.link/juniq)
 
-[익스트림 프로그래밍](https://en.wikipedia.org/wiki/Extreme_programming)을 좋아하는 프로그래머 입니다.   
+익스트림 프로그래밍을 좋아하는 프로그래머 입니다.   
 
-[애자일 선언문](https://agilemanifesto.org/iso/ko/manifesto.html) 서명자들의 조언을 좋아합니다. 특히 [3extremos](https://wiki.c2.com/?TheThreeExtremos)에 큰 도움을 받고 있습니다.
+애자일 선언문 서명자들의 조언을 좋아합니다. 특히 [3extremos](https://wiki.c2.com/?TheThreeExtremos)에 큰 도움을 받고 있습니다.
 기업의 소프트웨어를 만드는 직업인으로서, 기업/팀에 가치를 전달하는 것이 [최우선](https://github.com/juniqlim/note/blob/master/programming/2023-02-01-what-really-matters-in-software.md)입니다.
 대부분의 경력기간동안, Java, Spring(Boot), RDB로 애플리케이션 서버 만드는 일을 해왔습니다.
 
-[엘레강트 오브젝트](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=258374007) 책과 저자 [블로그](https://www.yegor256.com)의 영향을 받았습니다.
+엘레강트 오브젝트 책과 저자 [블로그](https://www.yegor256.com)의 영향을 받았습니다.
 TDD방식으로, 객체지향적으로, 선언적으로 프로그래밍하는 것을 좋아합니다.  
 프로그램을 만드는 더 나은 방법을 고민하다가 찾은, 현재 저의 답입니다.
 
