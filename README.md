@@ -12,7 +12,7 @@
 
 엘레강트 오브젝트 책과 저자 [블로그](https://www.yegor256.com)의 영향을 받았습니다.  
 TDD방식으로, 객체지향적으로, 선언적으로 프로그래밍하는 것을 좋아합니다.  
-프로그램을 만드는 더 나은 방법을 고민하다가 찾은, 현재 저의 답입니다.  
+[프로그램을 만드는 더 나은 방법을 고민](https://github.com/juniqlim/note/blob/master/programming/2023-02-12-my-programming-evolution.md)하다가 찾은, 현재 저의 답입니다.  
 
 언제나 즐겁게 프로그래밍하는 것이, 단기적/장기적 목표입니다.
  
@@ -34,5 +34,5 @@ TDD방식으로, 객체지향적으로, 선언적으로 프로그래밍하는 �
   * SK엔카닷컴에 4년정도 파견근무하며, 서비스 회사의 업무를 경험
 
 ## 교육
-* NEXTSTEP - [TDD, 클린 코드 with Java](https://edu.nextstep.camp/c/8fWRxNWU) (2021-03 ~ 2021-05) 
+* NEXTSTEP - [TDD, 클린 코드 with Java](https://github.com/juniqlim/note/blob/master/programming/2023-01-08-nextstep-tdd-review.md) (2021-03 ~ 2021-05) 
 * 강남대학교 - 컴퓨터공학 전공 (2001.03 ~ 2008.02)
