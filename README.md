@@ -8,7 +8,7 @@
 복잡한 문제를 단순한 문제로 만들어 해결하려고 합니다.  
   
 구체적이면서 강력한 실천방법들을 제시하는, [익스트림 프로그래밍](https://github.com/juniqlim/note/blob/oop/programming/2023-06-07-how-to-become-an-agile-developer.md)과  
-선언적인 메세징을 다른 무엇보다 강조하는, [앨런 캐이의 OO](https://github.com/juniqlim/note/blob/oop/programming/2023-03-17-alan-kay-oop.md)를 이용하여,
+선언적인 메세징을 다른 무엇보다 강조하는, [앨런 캐이의 OO](https://github.com/juniqlim/note/blob/oop/programming/2023-03-17-alan-kay-oop.md)를 이용하여,  
 문제를 해결하고, 실제로 필요한 것에 가까워지려 노력합니다.  
   
 핀테크, 헬스케어, 커머스 등의 서비스를 만드는 회사/프로젝트에서 서버 개발자로 일한 경험이 있습니다.  
