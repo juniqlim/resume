@@ -24,7 +24,7 @@
   * APM툴 도입, JPA 성능개선, Slow Query 개선
   * 배포 자동화, 테스트 코드 작성, 모듈화등 더 나은 생산성을 위해 여러 시도를 함
 * [링크올](https://www.rocketpunch.com/companies/linkall) (2019.01 ~ 2020.01)
-  * 병원자동화 시스템을 만드는 헬스케어 회사, 백엔드 개발자로 근무
+  * 병원자동화 시스템을 만드는 헬스케어 회사, 서버 개발자로 근무
   * 데이터교환 국제표준(FHIR)을 만족하는 [EMR](https://namu.wiki/w/EMR)(의료기록시스템) 초기설계
   * [나래의료재단](https://booking.naraemedic.com/medical/supplies)에서 사용할 검진프로그램 개발 
 * 프리랜서 (2017.04 ~ 2018.12)
