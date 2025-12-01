@@ -4,18 +4,14 @@
 * [juniqlim@gmail.com](mailto:juniqlim@gmail.com)
 * [bio.link/juniq](https://bio.link/juniq)
 
-애자일과 객체지향을 좋아하는 프로그래머입니다.  
-복잡한 문제를 단순한 문제로 만들어 해결하려고 합니다.  
+좋은 개발자는 고객에게 가치를 전달한다고 생각합니다.  
+이를 위한 도구인 애자일, 특히 [익스트림 프로그래밍](https://github.com/juniqlim/note/blob/master/programming/2023-06-07-how-to-become-an-agile-developer.md)에 푹 빠져있습니다.  
+문제를 해결하기 위한 가장 단순한 것을 찾아, 실제로 필요한 것에 가까워지려 노력합니다.  
   
-구체적이면서 강력한 실천방법들을 제시하는, [익스트림 프로그래밍](https://github.com/juniqlim/note/blob/master/programming/2023-06-07-how-to-become-an-agile-developer.md)과  
-선언적인 메세징을 다른 무엇보다 강조하는, [앨런 캐이의 OO](https://github.com/juniqlim/note/blob/master/programming/2023-03-17-alan-kay-oop.md)를 이용하여,  
-문제를 해결하고, 실제로 필요한 것에 가까워지려 노력합니다.  
-  
-핀테크, 헬스케어, 커머스 등의 서비스를 만드는 회사/프로젝트에서 서버 개발자로 일한 경험이 있습니다.  
-주로 java, spring(boot), RDB로 서버/배치 애플리케이션을 만들었습니다.  
-  
-언제나 즐겁게 프로그래밍하기 위해 노력하고 있습니다.  
- 
+커머스, 핀테크, 헬스케어 등의 서비스를 만드는 회사/프로젝트에서 개발자로 일한 경험이 있습니다.  
+오랫동안 Java/Spring을 주로 다뤘으며, 최근에는 Python/Django로 소프트웨어를 만들었습니다.  
+최종사용자는 물론, 같이 일하는 동료들도 만족시키는 것이 즐겁습니다.  
+   
 ## 경력
 * [메디쿼터스](https://mediquitous.com) (2023.07 ~ 2025.04)
   * 한국/일본 대상 패션&뷰티 커머스 플랫폼 회사, [nugu](https://www.nugu.jp)서비스를 개발/운영하는 개발팀에서 근무
