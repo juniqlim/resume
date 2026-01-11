@@ -46,7 +46,7 @@
 * 단위테스트를 작성합니다.
   * [대체로 구현 전](https://github.com/juniqlim/note/blob/master/programming/why-tdd.md)에 작성합니다. 결과를 먼저 정의하면 불필요한 구현을 피할 수 있습니다. 
   * 문제의 한 부분을 먼저 정의하면, 나머지 부분의 모습도 더 빨리 구체화됩니다.
-* 성과를 높이는 도구로 이너게임을 활용합니다.
+* 성과를 높이는 도구로 [이너게임](https://github.com/juniqlim/note/blob/master/programming/inner-game-coaching.md)을 활용합니다.
   * 나 자신에게도, 동료에게도 평가보다 관찰을, 지시보다 질문을 먼저 합니다. 
   * "잘해야 한다"고 채근하는 것이 오히려 성과를 방해할 때가 많았습니다.
 
