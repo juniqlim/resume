@@ -5,7 +5,7 @@
 * [bio.link/juniq](https://bio.link/juniq)
 
 좋은 개발자는 고객에게 가치를 전달한다고 생각합니다.  
-이를 위한 도구인 애자일, 특히 [익스트림 프로그래밍](https://github.com/juniqlim/note/blob/master/programming/2023-06-07-how-to-become-an-agile-developer.md)에 푹 빠져있습니다.  
+이를 위한 도구인 애자일, 특히 [익스트림 프로그래밍](https://github.com/juniqlim/note/blob/master/programming/2023-06-07-how-to-become-an-agile-developer.md)을 사용해 이득을 보려 합니다.  
 문제를 해결하기 위한 가장 단순한 것을 찾아, 실제로 필요한 것에 가까워지려 노력합니다.  
   
 커머스, 핀테크, 헬스케어 등의 서비스를 만드는 회사/프로젝트에서 개발자로 일한 경험이 있습니다.  
