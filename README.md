@@ -1,6 +1,9 @@
 <img alt="20220925_songdo" src="https://raw.githubusercontent.com/juniqlim/resume/master/20220925_songdo.JPG" width="195" height="260">
 
 ## 임준규
+* [juniqlim@gmail.com](mailto:juniqlim@gmail.com)
+* [bio.link/juniq](https://bio.link/juniq)
+
 좋은 개발자는 고객에게 가치를 전달한다고 생각합니다.  
 이를 위한 도구인 애자일, 특히 [익스트림 프로그래밍](https://github.com/juniqlim/note/blob/master/programming/2023-06-07-how-to-become-an-agile-developer.md)을 사용해 이득을 보려 합니다.  
 문제를 해결하기 위한 가장 단순한 것을 찾아, 실제로 필요한 것에 가까워지려 노력합니다.  
