@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>임준규 - 이력서</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://juniqlim.github.io/resume",
+    "name": "임준규's resume"
+  }
+  </script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Segoe UI", Roboto, sans-serif;
+      color: #1a1a1a;
+      background: #fafafa;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 48px;
+    }
+
+    .header img {
+      width: 120px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+      filter: grayscale(20%);
+    }
+
+    .header-info h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .header-info .contact {
+      list-style: none;
+      display: flex;
+      gap: 16px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .header-info .contact a {
+      color: #555;
+      text-decoration: none;
+      border-bottom: 1px solid #ddd;
+      transition: border-color 0.2s;
+    }
+
+    .header-info .contact a:hover {
+      border-color: #1a1a1a;
+    }
+
+    /* Intro */
+    .intro {
+      font-size: 1.05rem;
+      color: #333;
+      margin-bottom: 64px;
+      line-height: 1.9;
+    }
+
+    /* Section */
+    section {
+      margin-bottom: 56px;
+    }
+
+    section h2 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #999;
+      margin-bottom: 24px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #eee;
+    }
+
+    /* Career */
+    .career-item {
+      margin-bottom: 32px;
+    }
+
+    .career-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .career-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 8px;
+    }
+
+    .career-header h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .career-header h3 a {
+      color: #1a1a1a;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .career-header h3 a:hover {
+      border-bottom-color: #1a1a1a;
+    }
+
+    .career-header .period {
+      font-size: 0.85rem;
+      color: #999;
+      white-space: nowrap;
+      margin-left: 16px;
+    }
+
+    .career-desc {
+      font-size: 0.92rem;
+      color: #666;
+      margin-bottom: 8px;
+    }
+
+    .career-item ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .career-item li {
+      font-size: 0.92rem;
+      color: #444;
+      padding-left: 16px;
+      position: relative;
+      margin-bottom: 4px;
+    }
+
+    .career-item li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 11px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: #ccc;
+    }
+
+    /* Working Style */
+    .style-item {
+      margin-bottom: 24px;
+    }
+
+    .style-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .style-item h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .style-item h3 a {
+      color: #1a1a1a;
+      text-decoration: none;
+      border-bottom: 1px solid #ddd;
+      transition: border-color 0.2s;
+    }
+
+    .style-item h3 a:hover {
+      border-bottom-color: #1a1a1a;
+    }
+
+    .style-item p {
+      font-size: 0.92rem;
+      color: #555;
+    }
+
+    /* Education */
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 8px;
+    }
+
+    .edu-item span:first-child {
+      font-size: 0.95rem;
+    }
+
+    .edu-item span:first-child a {
+      color: #1a1a1a;
+      text-decoration: none;
+      border-bottom: 1px solid #ddd;
+      transition: border-color 0.2s;
+    }
+
+    .edu-item span:first-child a:hover {
+      border-bottom-color: #1a1a1a;
+    }
+
+    .edu-item .period {
+      font-size: 0.85rem;
+      color: #999;
+    }
+
+    @page {
+      margin: 15mm;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        padding: 48px 20px;
+      }
+
+      .header {
+        gap: 20px;
+      }
+
+      .header img {
+        width: 90px;
+        height: 120px;
+      }
+
+      .header-info h1 {
+        font-size: 1.5rem;
+      }
+
+      .header-info .contact {
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .career-header {
+        flex-direction: column;
+        gap: 2px;
+      }
+
+      .career-header .period {
+        margin-left: 0;
+      }
+
+      .edu-item {
+        flex-direction: column;
+        gap: 2px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <img alt="프로필 사진" src="20220925_songdo.JPG">
+      <div class="header-info">
+        <h1>임준규</h1>
+        <ul class="contact">
+          <li><a href="mailto:juniqlim@gmail.com">juniqlim@gmail.com</a></li>
+          <li><a href="https://bio.link/juniq">bio.link/juniq</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="intro">
+      좋은 개발자는 고객에게 가치를 전달한다고 생각합니다.<br>
+      이를 위한 도구인 애자일, 특히 <a href="https://github.com/juniqlim/note/blob/master/programming/2023-06-07-how-to-become-an-agile-developer.md" style="color:#333;border-bottom:1px solid #ccc">익스트림 프로그래밍</a>을 사용해 이득을 보려 합니다.<br>
+      문제를 해결하기 위한 가장 단순한 것을 찾아, 실제로 필요한 것에 가까워지려 노력합니다.<br><br>
+      커머스, 핀테크, 헬스케어 등의 서비스를 만드는 회사에서 개발자로 일한 경험이 있습니다.<br>
+      오랫동안 Java/Spring을 주로 다뤘으며, 최근에는 Python/Django로 소프트웨어를 만들었습니다.<br>
+      최종사용자는 물론, 같이 일하는 동료들도 만족시키는 것이 즐겁습니다.
+    </p>
+
+    <section>
+      <h2>경력</h2>
+
+      <div class="career-item">
+        <div class="career-header">
+          <h3><a href="https://mediquitous.com">메디쿼터스</a></h3>
+          <span class="period">2023.07 — 2025.04</span>
+        </div>
+        <p class="career-desc">한국/일본 대상 패션&뷰티 커머스 플랫폼, <a href="https://www.nugu.jp" style="color:#666;border-bottom:1px solid #ddd">nugu</a> 서비스 개발팀</p>
+        <ul>
+          <li>Python/Django, Svelte/SvelteKit, React/Next.js 등 새로운 언어와 프레임워크를 학습하고 사용</li>
+          <li>주문/결제/배송의 개발 및 유지보수</li>
+          <li>한국PG사에서 일본PG사(<a href="https://www.gmo-pg.com/en/" style="color:#444;border-bottom:1px solid #ddd">GMO-PG</a>)로 결제시스템 전환</li>
+          <li>기획전, 메인페이지 개발/유지보수</li>
+          <li>매우 짧은 주기로 메인 브랜치에 코드를 통합하는 것의 가치를 실천 (30분 지향)</li>
+        </ul>
+      </div>
+
+      <div class="career-item">
+        <div class="career-header">
+          <h3><a href="https://hanpass.com">한패스</a></h3>
+          <span class="period">2020.01 — 2023.04</span>
+        </div>
+        <p class="career-desc">국내 외국인 대상 핀테크 회사, 송금개발팀 백엔드 개발자</p>
+        <ul>
+          <li>Spring Batch를 사용한 배치 개발</li>
+          <li>대외연계(오픈뱅킹, 쿠콘, 유니온페이 등) 서버 및 모듈 개발</li>
+          <li>APM 도입, JPA 성능개선, Slow Query 개선</li>
+          <li>배포 자동화, 테스트 코드 작성, 모듈화 등 생산성 향상 시도</li>
+        </ul>
+      </div>
+
+      <div class="career-item">
+        <div class="career-header">
+          <h3><a href="https://www.rocketpunch.com/companies/linkall">링크올</a></h3>
+          <span class="period">2019.01 — 2020.01</span>
+        </div>
+        <p class="career-desc">병원자동화 시스템을 만드는 헬스케어 회사, 서버 개발자</p>
+        <ul>
+          <li>데이터교환 국제표준(FHIR)을 만족하는 EMR(의료기록시스템) 초기설계</li>
+          <li><a href="https://booking.naraemedic.com/medical/supplies" style="color:#444;border-bottom:1px solid #ddd">나래의료재단</a> 검진프로그램 개발</li>
+        </ul>
+      </div>
+
+      <div class="career-item">
+        <div class="career-header">
+          <h3>프리랜서</h3>
+          <span class="period">2017.04 — 2018.12</span>
+        </div>
+        <ul>
+          <li>11번가 전시파트 이벤트 개발 프로젝트, 서버개발자</li>
+          <li>SSF몰 UIUX 리뉴얼 전시파트 개발 프로젝트, 서버개발자</li>
+        </ul>
+      </div>
+
+      <div class="career-item">
+        <div class="career-header">
+          <h3><a href="https://www.netville.co.kr">네트빌</a></h3>
+          <span class="period">2007.12 — 2016.12</span>
+        </div>
+        <p class="career-desc">커뮤니티 솔루션(게시판/블로그/카페/SNS 등) SI 회사, 서버개발자</p>
+        <ul>
+          <li>모델1 방식 프로젝트를 시작으로 대부분 Spring 프로젝트를 수행</li>
+          <li><a href="http://www.encar.com/index.do" style="color:#444;border-bottom:1px solid #ddd">엔카닷컴</a>에 4년 파견근무하며 서비스 회사의 업무를 경험</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>일하는 방법</h2>
+
+      <div class="style-item">
+        <h3>고객 중심 사고</h3>
+        <p>엔드유저만이 아니라 고용주, 매니저, 동료 모두 저의 고객입니다. 이들 모두를 만족시키는 가치를 전달하기 위해 노력합니다.</p>
+      </div>
+
+      <div class="style-item">
+        <h3><a href="https://github.com/juniqlim/note/blob/master/programming/pomodoro-retrospective.md">뽀모도로 회고</a></h3>
+        <p>회고의 힘을 경험했고, 더 자주 할수록 더 많은 도움을 받았습니다. 최소 25분마다 불필요한 시간을 보내지 않았는지, 다른 관점에서 생각해봅니다.</p>
+      </div>
+
+      <div class="style-item">
+        <h3><a href="https://github.com/juniqlim/note/blob/master/programming/why-tdd.md">단위테스트 작성</a></h3>
+        <p>대체로 구현 전에 작성합니다. 결과를 먼저 정의하면 불필요한 구현을 피할 수 있고, 문제의 한 부분을 먼저 정의하면 나머지 부분의 모습도 더 빨리 구체화됩니다.</p>
+      </div>
+
+      <div class="style-item">
+        <h3><a href="https://github.com/juniqlim/note/blob/master/programming/inner-game-coaching.md">이너게임 활용</a></h3>
+        <p>나 자신에게도, 동료에게도 평가보다 관찰을, 지시보다 질문을 먼저 합니다. "잘해야 한다"고 채근하는 것이 오히려 성과를 방해할 때가 많았습니다.</p>
+      </div>
+
+      <div class="style-item">
+        <h3><a href="https://github.com/juniqlim/note/blob/master/programming/better-agentic-coding.md">에이전틱 코딩</a></h3>
+        <p>에이전트가 직접 검증할 수 있도록 코칭해서, 진행속도와 품질을 높이려 합니다. 동작하는 작은 코드를 테스트부터 만들고, 매우 작은 주기로 회고하는 방식이 에이전틱 코딩과 잘 맞는다고 생각합니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>교육</h2>
+      <div class="edu-item">
+        <span>NEXTSTEP — <a href="https://github.com/juniqlim/note/blob/master/programming/2023-01-08-nextstep-tdd-review.md">TDD, 클린 코드 with Java</a></span>
+        <span class="period">2021.03 — 2021.05</span>
+      </div>
+      <div class="edu-item">
+        <span>강남대학교 — 컴퓨터공학 전공</span>
+        <span class="period">2001.03 — 2008.02</span>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
