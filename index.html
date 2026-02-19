@@ -65,14 +65,14 @@
     }
 
     .header-info .contact a {
-      color: #555;
+      color: #4a6fa5;
       text-decoration: none;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #4a6fa5;
       transition: border-color 0.2s;
     }
 
     .header-info .contact a:hover {
-      border-color: #1a1a1a;
+      border-color: #4a6fa5;
     }
 
     /* Intro */
@@ -121,14 +121,14 @@
     }
 
     .career-header h3 a {
-      color: #1a1a1a;
+      color: #4a6fa5;
       text-decoration: none;
-      border-bottom: 1px solid transparent;
+      border-bottom: 1px solid #4a6fa5;
       transition: border-color 0.2s;
     }
 
     .career-header h3 a:hover {
-      border-bottom-color: #1a1a1a;
+      border-bottom-color: #4a6fa5;
     }
 
     .career-header .period {
@@ -184,14 +184,14 @@
     }
 
     .style-item h3 a {
-      color: #1a1a1a;
+      color: #4a6fa5;
       text-decoration: none;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #4a6fa5;
       transition: border-color 0.2s;
     }
 
     .style-item h3 a:hover {
-      border-bottom-color: #1a1a1a;
+      border-bottom-color: #4a6fa5;
     }
 
     .style-item p {
@@ -212,14 +212,14 @@
     }
 
     .edu-item span:first-child a {
-      color: #1a1a1a;
+      color: #4a6fa5;
       text-decoration: none;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #4a6fa5;
       transition: border-color 0.2s;
     }
 
     .edu-item span:first-child a:hover {
-      border-bottom-color: #1a1a1a;
+      border-bottom-color: #4a6fa5;
     }
 
     .edu-item .period {
@@ -229,6 +229,13 @@
 
     @page {
       margin: 15mm;
+    }
+
+    @media print {
+      a[style] {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
     }
 
     /* Responsive */
@@ -287,7 +294,7 @@
 
     <p class="intro">
       좋은 개발자는 고객에게 가치를 전달한다고 생각합니다.<br>
-      이를 위한 도구인 애자일, 특히 <a href="https://github.com/juniqlim/note/blob/master/programming/2023-06-07-how-to-become-an-agile-developer.md" style="color:#333;border-bottom:1px solid #ccc">익스트림 프로그래밍</a>을 사용해 이득을 보려 합니다.<br>
+      이를 위한 도구인 애자일, 특히 <a href="https://github.com/juniqlim/note/blob/master/programming/2023-06-07-how-to-become-an-agile-developer.md" style="color:#4a6fa5">익스트림 프로그래밍</a>을 사용해 이득을 보려 합니다.<br>
       문제를 해결하기 위한 가장 단순한 것을 찾아, 실제로 필요한 것에 가까워지려 노력합니다.<br><br>
       커머스, 핀테크, 헬스케어 등의 서비스를 만드는 회사에서 개발자로 일한 경험이 있습니다.<br>
       오랫동안 Java/Spring을 주로 다뤘으며, 최근에는 Python/Django로 소프트웨어를 만들었습니다.<br>
@@ -302,11 +309,11 @@
           <h3><a href="https://mediquitous.com">메디쿼터스</a></h3>
           <span class="period">2023.07 — 2025.04</span>
         </div>
-        <p class="career-desc">한국/일본 대상 패션&뷰티 커머스 플랫폼, <a href="https://www.nugu.jp" style="color:#666;border-bottom:1px solid #ddd">nugu</a> 서비스 개발팀</p>
+        <p class="career-desc">한국/일본 대상 패션&뷰티 커머스 플랫폼, <a href="https://www.nugu.jp" style="color:#4a6fa5">nugu</a> 서비스 개발팀</p>
         <ul>
           <li>Python/Django, Svelte/SvelteKit, React/Next.js 등 새로운 언어와 프레임워크를 학습하고 사용</li>
           <li>주문/결제/배송의 개발 및 유지보수</li>
-          <li>한국PG사에서 일본PG사(<a href="https://www.gmo-pg.com/en/" style="color:#444;border-bottom:1px solid #ddd">GMO-PG</a>)로 결제시스템 전환</li>
+          <li>한국PG사에서 일본PG사(<a href="https://www.gmo-pg.com/en/" style="color:#4a6fa5">GMO-PG</a>)로 결제시스템 전환</li>
           <li>기획전, 메인페이지 개발/유지보수</li>
           <li>매우 짧은 주기로 메인 브랜치에 코드를 통합하는 것의 가치를 실천 (30분 지향)</li>
         </ul>
@@ -334,7 +341,7 @@
         <p class="career-desc">병원자동화 시스템을 만드는 헬스케어 회사, 서버 개발자</p>
         <ul>
           <li>데이터교환 국제표준(FHIR)을 만족하는 EMR(의료기록시스템) 초기설계</li>
-          <li><a href="https://booking.naraemedic.com/medical/supplies" style="color:#444;border-bottom:1px solid #ddd">나래의료재단</a> 검진프로그램 개발</li>
+          <li><a href="https://booking.naraemedic.com/medical/supplies" style="color:#4a6fa5">나래의료재단</a> 검진프로그램 개발</li>
         </ul>
       </div>
 
@@ -357,7 +364,7 @@
         <p class="career-desc">커뮤니티 솔루션(게시판/블로그/카페/SNS 등) SI 회사, 서버개발자</p>
         <ul>
           <li>모델1 방식 프로젝트를 시작으로 대부분 Spring 프로젝트를 수행</li>
-          <li><a href="http://www.encar.com/index.do" style="color:#444;border-bottom:1px solid #ddd">엔카닷컴</a>에 4년 파견근무하며 서비스 회사의 업무를 경험</li>
+          <li><a href="http://www.encar.com/index.do" style="color:#4a6fa5">엔카닷컴</a>에 4년 파견근무하며 서비스 회사의 업무를 경험</li>
         </ul>
       </div>
     </section>
