@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>50대 개발자 구직 가이드</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Segoe UI", Roboto, sans-serif;
+      color: #1a1a1a;
+      background: #fafafa;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+
+    .back-link {
+      display: inline-block;
+      font-size: 0.9rem;
+      color: #4a6fa5;
+      text-decoration: none;
+      border-bottom: 1px solid #4a6fa5;
+      margin-bottom: 32px;
+    }
+
+    .back-link:hover {
+      border-color: #4a6fa5;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      color: #333;
+      margin-bottom: 64px;
+      line-height: 1.9;
+    }
+
+    section {
+      margin-bottom: 56px;
+    }
+
+    section h2 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #999;
+      margin-bottom: 24px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .guide-item {
+      margin-bottom: 28px;
+    }
+
+    .guide-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .guide-item h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .guide-item p {
+      font-size: 0.92rem;
+      color: #555;
+      margin-bottom: 8px;
+    }
+
+    .guide-item ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .guide-item li {
+      font-size: 0.92rem;
+      color: #444;
+      padding-left: 16px;
+      position: relative;
+      margin-bottom: 4px;
+    }
+
+    .guide-item li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 11px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: #ccc;
+    }
+
+    a {
+      color: #4a6fa5;
+      text-decoration: none;
+      border-bottom: 1px solid #4a6fa5;
+      transition: border-color 0.2s;
+    }
+
+    a:hover {
+      border-color: #4a6fa5;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 48px 20px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @page {
+      margin: 20mm 15mm;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <a class="back-link" href="index.html">&larr; 이력서로 돌아가기</a>
+
+    <h1>50대 개발자, 어떻게 구직할까</h1>
+
+    <p class="intro">
+      경력이 쌓일수록 기술만으로 평가받기 어려워집니다.<br>
+      하지만 20년 넘게 변화하는 기술 환경에서 살아남았다는 것 자체가 강력한 증거입니다.<br>
+      50대 개발자가 구직할 때 실제로 도움이 되는 방법을 정리했습니다.
+    </p>
+
+    <section>
+      <h2>강점을 재정의하기</h2>
+
+      <div class="guide-item">
+        <h3>경험은 판단력이다</h3>
+        <p>수많은 프로젝트를 거치며 얻은 것은 기술 목록이 아니라, 무엇을 만들지 말아야 하는지 아는 판단력입니다. 이것은 주니어에게 없는 능력입니다.</p>
+      </div>
+
+      <div class="guide-item">
+        <h3>안정성과 신뢰</h3>
+        <p>장기근속 경험, 위기 대처 능력, 조직 내 신뢰 구축 경험은 팀에 안정감을 줍니다. 면접에서 구체적인 사례를 준비하세요.</p>
+      </div>
+
+      <div class="guide-item">
+        <h3>멘토링 능력</h3>
+        <p>후배 개발자를 성장시킨 경험이 있다면 적극적으로 어필하세요. 시니어 채용에서 멘토링 역량을 중시하는 회사가 늘고 있습니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>기술 스택 현행화</h2>
+
+      <div class="guide-item">
+        <h3>현재 시장이 원하는 기술을 익히기</h3>
+        <p>기존 기술에 안주하지 않고, 시장에서 수요가 있는 기술을 꾸준히 학습하는 것이 중요합니다.</p>
+        <ul>
+          <li>기존 주력 언어의 최신 버전과 생태계 따라가기</li>
+          <li>클라우드, 컨테이너, CI/CD 등 현대적 인프라 경험 쌓기</li>
+          <li>AI 도구(GitHub Copilot, Claude 등)를 활용한 생산성 향상 경험 만들기</li>
+        </ul>
+      </div>
+
+      <div class="guide-item">
+        <h3>배움을 증명하기</h3>
+        <p>학습한 내용을 GitHub에 올리거나, 블로그에 정리하거나, 사이드 프로젝트로 만들어 보세요. "아직도 배우고 있다"는 것을 보여주는 것이 나이 편견을 깨는 가장 강력한 방법입니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>네트워크 활용</h2>
+
+      <div class="guide-item">
+        <h3>공개 채용보다 네트워크</h3>
+        <p>50대 개발자에게 공개 채용은 불리한 경쟁입니다. 서류 단계에서 나이로 걸러지는 경우가 많습니다. 대신 이전 동료, 지인을 통한 소개가 훨씬 효과적입니다.</p>
+        <ul>
+          <li>이전 직장 동료들과 관계를 유지하기</li>
+          <li>개발자 커뮤니티, 밋업, 컨퍼런스에 꾸준히 참여하기</li>
+          <li>LinkedIn 프로필을 최신 상태로 유지하기</li>
+        </ul>
+      </div>
+
+      <div class="guide-item">
+        <h3>기여를 통한 인지도</h3>
+        <p>오픈소스 기여, 기술 블로그 작성, 커뮤니티 발표 등으로 이름을 알리세요. "이 사람은 실력이 있다"는 인식이 퍼지면 기회가 찾아옵니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>다양한 고용 형태 고려</h2>
+
+      <div class="guide-item">
+        <h3>정규직만이 답은 아니다</h3>
+        <p>경력이 많을수록 다양한 형태의 일이 가능합니다.</p>
+        <ul>
+          <li>기술 컨설팅 — 특정 도메인 전문성을 살려 자문 역할</li>
+          <li>프리랜서/계약직 — 프로젝트 단위로 유연하게 일하기</li>
+          <li>파트타임/자문 — 스타트업에 기술 자문으로 참여</li>
+          <li>강의/교육 — 후배 양성과 지식 공유</li>
+        </ul>
+      </div>
+
+      <div class="guide-item">
+        <h3>스타트업에 주목하기</h3>
+        <p>대기업보다 스타트업이 경력 시니어를 더 필요로 하는 경우가 많습니다. 기술 리드, CTO, 아키텍트 역할로 경험을 발휘할 수 있습니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>이력서 최적화</h2>
+
+      <div class="guide-item">
+        <h3>최근 경력 중심으로 구성하기</h3>
+        <p>10년 전 경력을 장황하게 나열하지 마세요. 최근 5년의 경력과 성과를 중심으로 구성하고, 이전 경력은 간결하게 요약하세요.</p>
+      </div>
+
+      <div class="guide-item">
+        <h3>성과와 임팩트 강조하기</h3>
+        <p>"무엇을 했는가"보다 "어떤 결과를 만들었는가"가 중요합니다.</p>
+        <ul>
+          <li>시스템 성능을 몇 % 개선했는지</li>
+          <li>팀 생산성에 어떤 기여를 했는지</li>
+          <li>비용 절감이나 매출 기여 등 비즈니스 임팩트</li>
+        </ul>
+      </div>
+
+      <div class="guide-item">
+        <h3>졸업연도 생략 고려</h3>
+        <p>불필요한 나이 추측을 피하기 위해 대학 졸업연도를 생략하는 것도 방법입니다. 이력서에서 중요한 것은 나이가 아니라 역량입니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>면접 전략</h2>
+
+      <div class="guide-item">
+        <h3>코딩 테스트 준비</h3>
+        <p>알고리즘 문제 풀이가 실무와 동떨어져 있더라도, 많은 회사가 여전히 요구합니다. LeetCode, 프로그래머스 등으로 꾸준히 준비하세요.</p>
+      </div>
+
+      <div class="guide-item">
+        <h3>나이 관련 질문 대응</h3>
+        <p>직접적으로 나이를 묻지 않더라도, 우회적인 질문이 나올 수 있습니다. "젊은 팀원과 잘 지낼 수 있는가" 같은 질문에는 구체적인 협업 사례로 답하세요.</p>
+      </div>
+
+      <div class="guide-item">
+        <h3>에너지와 열정 보여주기</h3>
+        <p>최근 학습한 기술, 진행 중인 사이드 프로젝트, 읽고 있는 기술 서적 등을 자연스럽게 언급하세요. 성장이 멈추지 않았다는 인상을 주는 것이 중요합니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>마음가짐</h2>
+
+      <div class="guide-item">
+        <h3>구직 기간이 길어질 수 있다</h3>
+        <p>50대 구직은 30대보다 시간이 더 걸리는 것이 현실입니다. 조급하지 않게 재정적 준비를 하고, 구직 활동 자체를 루틴으로 만드세요.</p>
+      </div>
+
+      <div class="guide-item">
+        <h3>거절에 익숙해지기</h3>
+        <p>나이 때문에 거절당하는 것은 당신의 실력과 무관합니다. 편견이 있는 회사를 걸러내는 과정이라고 생각하세요. 당신의 경험을 제대로 평가하는 곳이 있습니다.</p>
+      </div>
+
+      <div class="guide-item">
+        <h3>자신의 가치를 스스로 낮추지 않기</h3>
+        <p>나이가 많다는 이유로 연봉을 크게 낮추거나 자신의 역량을 과소평가하지 마세요. 20년 이상의 경험에는 그에 맞는 가치가 있습니다.</p>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
