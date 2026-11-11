@@ -15,7 +15,7 @@ AI Agent를 이용해 운영환경에 바로 배포 가능한 프로덕트를 �
 ## 경력
 * 프리랜서 (2026.04 ~ 현재)
   * 마이크로그리드 에너지 관리 시스템(MG EMS), 수요반응 관리 시스템(DRMS) 개발
-  * 코드 전체를 AI Agent(Claude Code)로 작성, MG EMS 전체 할일 230개 중 114개를 처리 (개발자 5명, 모두 AI Agent 사용)
+  * 코드 전체를 AI Agent(Claude Code)로 작성, MG EMS 전체 할일 230개 중 114개를 처리
   * 사람의 개입을 최소화하면서도 문제없는 결과물이 나오는 지점을 찾아, 여러 에이전트를 병렬로 운용
   * 에이전트가 결과를 스스로 검증하도록 자동화 (백엔드: Newman API 테스트, 프론트엔드: Playwright MCP)
   * Java/Spring Boot 기반 MSA(MongoDB, MySQL, Redis, RabbitMQ)와 Nuxt/Vue로 백엔드·프론트엔드를 모두 개발
