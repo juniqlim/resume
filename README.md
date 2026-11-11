@@ -2,7 +2,7 @@
 
 ## 임준규
 * [juniqlim@gmail.com](mailto:juniqlim@gmail.com)
-* [bio.link/juniq](https://bio.link/juniq)
+* [juniq.im](https://juniq.im)
 
 좋은 개발자는 고객에게 가치를 전달한다고 생각합니다.  
 문제를 해결하기 위한 가장 단순한 것을 찾아, 실제로 필요한 것에 가까워지려 노력합니다.  
@@ -13,6 +13,18 @@ AI Agent를 이용해 운영환경에 바로 배포 가능한 프로덕트를 �
 최종사용자는 물론, 같이 일하는 동료들도 만족시키는 것이 즐겁습니다.  
    
 ## 경력
+* 프리랜서 (2026.04 ~ 현재)
+  * 마이크로그리드 에너지 관리 시스템(MG EMS), 수요반응 관리 시스템(DRMS) 개발
+  * 코드 전체를 AI Agent(Claude Code)로 작성, MG EMS 전체 할일 230개 중 114개를 처리 (개발자 5명, 모두 AI Agent 사용)
+  * 사람의 개입을 최소화하면서도 문제없는 결과물이 나오는 지점을 찾아, 여러 에이전트를 병렬로 운용
+  * 에이전트가 결과를 스스로 검증하도록 자동화 (백엔드: Newman API 테스트, 프론트엔드: Playwright MCP)
+  * Java/Spring Boot 기반 MSA(MongoDB, MySQL, Redis, RabbitMQ)와 Nuxt/Vue로 백엔드·프론트엔드를 모두 개발
+  * MG EMS
+    * 회원·사이트·기기 관리 기능과 권한 검증 공통 모듈 개발
+    * MQTT 기반 기기 제어 및 데이터 수집, 주기(15분~연간) 데이터 집계 API, 모니터링 차트 개발
+  * DRMS
+    * 기존 VPP(가상발전소) 시스템에 수요반응(DR) 기능 추가: 자원·고객·계약 관리, 입찰관리, 대시보드
+    * Netty 기반 TCP 서버로 보조계량기 통신 및 전문 파싱 구현
 * [메디쿼터스](https://mediquitous.com) (2023.07 ~ 2025.04)
   * 한국/일본 대상 패션&뷰티 커머스 플랫폼 회사, [nugu](https://www.nugu.jp)서비스를 개발/운영하는 개발팀에서 근무
   * python/django/svelte/sveltekit/react/next.js등 새로운 언어와 프레임웍을 학습하고 사용
@@ -41,19 +53,19 @@ AI Agent를 이용해 운영환경에 바로 배포 가능한 프로덕트를 �
 ## 일하는 방법
 * 저에게 고객은 엔드유저만이 아니라 고용주, 매니저, 동료 모두 제 결과물을 만나는 고객입니다.
   * 어렵지만 이들 모두를 만족시키는 가치를 전달하기 위해 노력합니다.
-* [뽀모도로 회고](https://github.com/juniqlim/note/blob/master/programming/pomodoro-retrospective.md)를 사용합니다.
+* [뽀모도로 회고](https://note.juniq.im/notes/programming/pomodoro-retrospective.html)를 사용합니다.
   * 회고의 힘을 경험했고, 더 자주 할수록 더 많은 도움을 받았습니다. 
   * 최소 25분마다 불필요한 시간을 보내지 않았는지, 다른 관점에서 생각해봅니다.
 * 단위테스트를 작성합니다.
-  * [대체로 구현 전](https://github.com/juniqlim/note/blob/master/programming/why-tdd.md)에 작성합니다. 결과를 먼저 정의하면 불필요한 구현을 피할 수 있습니다. 
+  * [대체로 구현 전](https://note.juniq.im/notes/programming/why-tdd.html)에 작성합니다. 결과를 먼저 정의하면 불필요한 구현을 피할 수 있습니다. 
   * 문제의 한 부분을 먼저 정의하면, 나머지 부분의 모습도 더 빨리 구체화됩니다.
-* 성과를 높이는 도구로 [이너게임](https://github.com/juniqlim/note/blob/master/programming/inner-game-coaching.md)을 활용합니다.
+* 성과를 높이는 도구로 [이너게임](https://note.juniq.im/notes/programming/inner-game-coaching.html)을 활용합니다.
   * 나 자신에게도, 동료에게도 평가보다 관찰을, 지시보다 질문을 먼저 합니다. 
   * "잘해야 한다"고 채근하는 것이 오히려 성과를 방해할 때가 많았습니다.
-* [에이전틱 코딩](https://github.com/juniqlim/note/blob/master/programming/better-agentic-coding.md)을 적극적으로 사용합니다.
+* [에이전틱 코딩](https://note.juniq.im/notes/programming/ai-agent/better-agentic-coding.html)을 적극적으로 사용합니다.
   * 에이전트가 직접 검증할 수 있도록 코칭해서, 진행속도와 품질을 높이려 합니다.
   * 동작하는 작은 코드를 테스트부터 만들고, 매우 작은 주기로 회고하는 방식이 에이전틱 코딩과 잘 맞는다고 생각합니다. 
 
 ## 교육
-* NEXTSTEP - [TDD, 클린 코드 with Java](https://github.com/juniqlim/note/blob/master/programming/2023-01-08-nextstep-tdd-review.md) (2021.03 ~ 2021.05) 
+* NEXTSTEP - [TDD, 클린 코드 with Java](https://note.juniq.im/notes/programming/2023-01-08-nextstep-tdd-review.html) (2021.03 ~ 2021.05) 
 * 강남대학교 - 컴퓨터공학 전공 (2001.03 ~ 2008.02)
